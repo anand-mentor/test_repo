@@ -30,7 +30,7 @@ public class ProductController {
 	
 	@GetMapping("/product")
 	public @ResponseBody List<Product> getAllProducts() {
-		System.out.println("Inside getAllProducts()");
+		System.out.println("Inside ProductController.getAllProducts()");
 		return productList;
 	}
 
